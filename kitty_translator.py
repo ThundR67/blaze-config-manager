@@ -16,8 +16,6 @@ def translate(config):
     """Translate the @config to Kitty config."""
     terminal_config = config["terminal"]
 
-    
-
     with open(KITTY_CONFIG_TEMPLATE, "r") as file:
         default_config = file.read()
 
