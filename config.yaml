@@ -1,5 +1,19 @@
 # This is the default configurations for BlazeDE.
 
+desktop:
+  wallpaper_file_location: "NONE"
+
+  mouse:
+    primary_button: "left"
+    mouse_speed: 0.5
+    natural_scrolling: false
+
+  touchpad:
+    enabled: true 
+    tap_to_click: true 
+    two_finger_scrolling: true 
+    edge_scrolling: false
+
 # Configurations for the terminal.
 terminal:
   fonts:
